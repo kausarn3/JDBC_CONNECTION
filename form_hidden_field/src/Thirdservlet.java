@@ -34,6 +34,5 @@ public class Thirdservlet extends HttpServlet {
 		w.println("<input type='hidden' name='t4' value="+"'"+s4+"'>");
 		w.println("<input type='hidden' name='t5' value="+"'"+s5+"'>");
 		w.println("</form>");
-		//w.println(s1);
 		}
 }
