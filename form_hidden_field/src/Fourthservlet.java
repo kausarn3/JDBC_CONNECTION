@@ -16,7 +16,8 @@ public class Fourthservlet extends HttpServlet {
       
     }
 
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {		
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {	
+		//fetch data from servlets.
 		String s1=request.getParameter("t1");
 		String s2=request.getParameter("t2");
 		String s3=request.getParameter("t3");
