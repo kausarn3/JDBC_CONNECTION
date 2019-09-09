@@ -17,6 +17,7 @@ public class Firstservlet extends HttpServlet {
     }
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//response from server to display form.
 		PrintWriter w=response.getWriter();
 		w.println("<form action='Secondservlet' method='post'>");
 		w.println("Name:<input type='text' name='t1' required><br><br>");
